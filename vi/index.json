@@ -1,0 +1,78 @@
+[
+{
+	"uri": "/vi/",
+	"title": "Cloud9",
+	"tags": [],
+	"description": "",
+	"content": "Làm việc vói CLoud 9 Tổng quan ở bài lab này chúng ta sẽ học sư dung Cloud 9\nContent  Giới thiệu  Taạ cloud 9 instance  Các chức năng cơ bản  Sử dung CLS  Trở vê màn Dashboard   "
+},
+{
+	"uri": "/vi/1-introduce/",
+	"title": "Giới thiệu",
+	"tags": [],
+	"description": "",
+	"content": "AWS Cloud9 là môi trường phát triển tích hợp (IDE) dựa trên đám mây cho phép bạn viết, chạy và gỡ lỗi mã chỉ bằng một trình duyệt. Môi trường này bao gồm một trình soạn mã, trình gỡ lỗi và thiết bị đầu cuối. Cloud9 được trang bị sẵn các công cụ thiết yếu cho các ngôn ngữ lập trình phổ biến, bao gồm JavaScript, Python, PHP và nhiều ngôn ngữ khác, nhờ vậy bạn không cần cài đặt tệp hoặc cấu hình máy phát triển để bắt đầu các dự án mới. Vì IDE Cloud9 là nền tảng dựa trên đám mây, nên bạn có thể làm việc với các dự án từ văn phòng, nhà hoặc bất cứ nơi đâu thông qua máy được kết nối với internet. Cloud9 cũng mang đến trải nghiệm liền mạch cho các ứng dụng serverless đang phát triển, cho phép bạn dễ dàng xác định các tài nguyên, gỡ lỗi và chuyển đổi giữa thực thi cục bộ và từ xa các ứng dụng serverless. Với Cloud9, bạn có thể nhanh chóng chia sẻ môi trường phát triển của mình với nhóm, từ đó cho phép bạn ghép cặp chương trình và theo dõi đầu ra lẫn nhau trong thời gian thực.\nLơi ích VIẾT MÃ CHỈ BẰNG MỘT TRÌNH DUYỆT AWS Cloud9 mang đến sự linh hoạt trong việc chạy môi trường lập trình trên phiên bản Amazon EC2 được quản lý hoặc mọi máy chủ Linux hiện có hỗ trợ SSH. Điều này đồng nghĩa với việc bạn có thể viết, chạy và gỡ lỗi ứng dụng chỉ bằng một trình duyệt mà không cần phải cài đặt hay duy trì một IDE cục bộ. Trình soạn mã của Cloud9 và trình gỡ lỗi tích hợp trang bị các tính năng hữu ích và tiết kiệm thời gian như gợi ý mã, hoàn thành mã và gỡ lỗi kiểu bước qua. Thiết bị đầu cuối Cloud9 mang đến trải nghiệm shell dựa trên trình duyệt cho phép bạn cài đặt phần mềm bổ sung, thực hiện git push hoặc nhập lệnh. VIẾT MÃ CÙNG NHAU TRONG THỜI GIAN THỰC AWS Cloud9 giúp cộng tác viết mã trở nên dễ dàng. Bạn có thể chia sẻ môi trường phát triển với nhóm của mình chỉ bằng vài cú nhấp chuột và ghép cặp ứng dụng cùng nhau. Trong khi cộng tác cùng nhau, các thành viên trong nhóm có thể nhìn thấy thao tác nhập của người khác trong thời gian thực, cũng như trò chuyện nhanh với người khác từ trong IDE. XÂY DỰNG CÁC ỨNG DỤNG SERVERLESS MỘT CÁCH DỄ DÀNG AWS Cloud9 giúp việc viết, chạy và gỡ lỗi các ứng dụng serverless trở nên dễ dàng. Nền tảng này cấu hình sẵn môi trường phát triển để có tất cả các SDK, thư viện và phần bổ trợ cần thiết để phát triển không cần máy chủ. Cloud9 cũng cung cấp một môi trường để kiểm thử và gỡ lỗi cục bộ cho các chức năng của AWS Lambda. Điều này cho phép bạn lặp lại mã trực tiếp trên mã, qua đó tiết kiệm thời gian và cải thiện chất lượng mã. CHUYỂN TRUY CẬP THIẾT BỊ ĐẦU CUỐI ĐẾN AWS AWS Cloud9 trang bị một thiết bị đầu cuối có các đặc quyền sudo với phiên bản Amazon EC2 được quản lý đang lưu trữ môi trường phát triển của bạn và Giao diện dòng lệnh AWS đã được xác thực trước. Điều này cho phép bạn dễ dàng chạy các lệnh một cách nhanh chóng và truy cập trực tiếp các dịch vụ AWS. BẮT ĐẦU DỰ ÁN MỚI NHANH CHÓNG AWS Cloud9 giúp bạn dễ dàng bắt đầu các dự án mới. Môi trường phát triển của Cloud9 được trang bị sẵn bộ công cụ cho hơn 40 ngôn ngữ lập trình, bao gồm Node.js, JavaScript, Python, PHP, Ruby, Go và C++. Điều này cho phép bạn bắt đầu viết mã cho hàng loạt ứng dụng phổ biến trong thời gian tính theo phút mà không cần cài đặt hay cấu hình các tệp, SDK, phần bổ trợ cho máy phát triển của mình. Do Cloud9 là nền tảng dựa trên đám mây, nên bạn có thể dễ dàng duy trì nhiều môi trường phát triển để phân lập các tài nguyên của dự án. "
+},
+{
+	"uri": "/vi/3-basicfunctions/3.2-workingwithfiletext/",
+	"title": "Làm việc với file text",
+	"tags": [],
+	"description": "",
+	"content": "Làm việc với file text Trong bước này chúng ta sẽ làm việc với file text trên Cloud9 instance.\n Tại giao diện list thư mục bên trái, click chuột phải vào file README và click Open  Bạn sẽ thấy file README đươc mở ra   Hãy gõ đoạn text bất kì vào trong file Vd: It\u0026rsquo;s easy to edit text in Cloud9   Sau khi gõ xong có thể ấn tổ hợp phím Ctrl+V hoặc click File-Save as  Việc tạo file mới rất đơn giản, bạn chỉ cần click vào File\u0026gt;New From Template \u0026gt; Tuỳ chọn địng dạng file bạn muốn   "
+},
+{
+	"uri": "/vi/3-basicfunctions/3.1-usecommandline/",
+	"title": "Sử dụng command line",
+	"tags": [],
+	"description": "",
+	"content": "Sử dụng command line Trong bước này chúng ta sẽ sử dụng giao diện terminal và thực hiện các command line Linux cơ bản trên Cloud9 instance.\n Tại giao diện IDE của Cloud9, click biểu tượng dấu + -Click New terminal hoặc chúng ta có thể sự dụng terminal có sẵn ở dưới màn hình  Tại giao diện Terminal, gõ câu lệnh sau để biết đường dẫn thư mục chúng ta đang làm việc.  pwd  Kết quả câu lệnh trên cho thấy đường dẫn thư mục làm việc của chúng ta là /home/ec2-user/environment/.  Gõ câu lệnh dưới đây để thấy danh sách file trong thư mục hiện tại  ls   và còn rất nhiều command linux trong cloud9  "
+},
+{
+	"uri": "/vi/2-createcloud9instance/",
+	"title": "Tạo cloud9 instance",
+	"tags": [],
+	"description": "",
+	"content": "Tạo 1 Cloud9 instance Trong buớc này chúng ta sẽ vào giao diện dịch vụ Cloud9 và tạo 1 cloud9 instance\n Đăng nhập vào AWS Management Console.  Click vào khung tìm kiếm và gõ \u0026ldquo;Cloud9\u0026rdquo;   Click vào biểu tuợng Cloud9 để đi đến trang quản trị Cloud9   Tại màn hình \u0026ldquo;Cloud9\u0026rdquo;   Click *Create Environment    Tại step 1 \u0026ldquo;Name environment\u0026rdquo;   Đặt tên Cloud9 của bạn VD: firstcloud9 Click Next Step    Tại step 2 \u0026ldquo;Configure settings.\u0026rdquo;   Environment type : Chọn Create a new EC2 instance for environment (direct access). Instance type : Chọn t2.micro. Platform : Chọn Amazon Linux2. -Cost-saving setting : chọn After 30 minutes. Cho phép tự động stop Cloud9 instance để tiết kiệm chi phí.   Tại trang Review. -Kiểm tra cấu hình đã chọn. -Kéo xuống cuối trang,  Bạn sẽ mất vài phút để tạo  Chúc mừng bạn đã tạo thành công cloud instance    Click Next step.  "
+},
+{
+	"uri": "/vi/3-basicfunctions/",
+	"title": "Chức năng cơ bản",
+	"tags": [],
+	"description": "",
+	"content": "Sử dụng tính năng cơ bản của Cloud9 Trong bước này, chúng ta sẽ sử dụng 1 số tính năng cơ bản của Cloud9 có sử dụng trong các bài lab của Cloud Journey.\nNội Dung  Using command line  Woking with file text  Back to dashboard   "
+},
+{
+	"uri": "/vi/3-basicfunctions/3.3-backtodasboard/",
+	"title": "Quay lại màn hình dashboard",
+	"tags": [],
+	"description": "",
+	"content": "Quay lại màn hình dashboard Sau khi chúng ta tạo Cloud9, giao diện làm việc sẽ chuyển tới Cloud9, nếu muốn trở về Dashboard để làm việc khác\n Tại giao diện Cloud9 IDE. - Click biểu tuợng Cloud 9 - Click Go To Your Dashboad.  Ngoài ra bạn có thể sử dụng cách khác đểr trờ về dashboard   Click vào biểu tuợng user ở góc phải màn hình Click Go to dashboard   Môt tab mới sẽ đuợc mở ra và màn hình làm việc sẽ là quản lý cloud 9 và bạn co thể sử dụng dịch vụ khác   Ở phần tiếp theo chúng ta sẽ làm quen vơi một số lệnh CLI\n"
+},
+{
+	"uri": "/vi/4-usingawscli/",
+	"title": "Sử dụng AWS CLI",
+	"tags": [],
+	"description": "",
+	"content": "Sử dụng AWS CLI AWS CLI của AWS là công cụ để quản lý các dịch vụ AWS.Bạn có thể kiểm soát nhiều dịch vụ AWS bằng command line và dễ dàng tự động hóa các dịch vụ của AWS bằng cách tạo ra các file script Và CLI đã đuợc cài sẵn trên Cloud 9\n Chạy lệnh AWS CLI để kiểm tra các instance đang chạy của chúng ra  aws ec2 describe-instances Vây là bạn đã hoàn thành bài lab cơ bản về Cloud 9, nhớ Dọn dẹp tài nguyên nhé\n"
+},
+{
+	"uri": "/vi/5-clearenvironment/",
+	"title": "Dọn dẹp tài nguyên",
+	"tags": [],
+	"description": "",
+	"content": "Dọn dẹp tài nguyên Bây giờ chúng ta sẽ dọn dẹp tài nguyên theo các buớc sau đây\n Tại giao diện của Cloud9   Click chọn instance mà bạn đã tạo Sau đó click Delete    Tại popup confirm - Điền Delete   Sau đó click Delete  Vậy là bạn đã xoá instance thành công  "
+},
+{
+	"uri": "/vi/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/vi/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

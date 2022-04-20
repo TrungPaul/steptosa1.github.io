@@ -1,0 +1,78 @@
+[
+{
+	"uri": "/",
+	"title": "Cloud9",
+	"tags": [],
+	"description": "",
+	"content": "Work with Cloud 9 Overall In this lab, you\u0026rsquo;ll learn the basics and practice of Amazon Cloud 9\nContent  Introduction  Create Cloud 9 instance  Basic functions Using AWS CLi  Back to Dashboard   "
+},
+{
+	"uri": "/1-introduce/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "AWS Cloud9 is an integrated development environment, or IDE.\nThe AWS Cloud9 IDE offers a rich code-editing experience with support for several programming languages and runtime debuggers, and a built-in terminal. It contains a collection of tools that you use to code, build, run, test, and debug software, and helps you release software to the cloud.\nYou access the AWS Cloud9 IDE through a web browser. You can configure the IDE to your preferences. You can switch color themes, bind shortcut keys, enable programming language-specific syntax coloring and code formatting, and more.\nBenefits CODE WITH JUST A BROWSER AWS Cloud9gives you the flexibility to run your development environment on a managed Amazon EC2 instance or any existing Linux server that supports SSH. This means that you can write, run, and debug applications with just a browser, without needing to install or maintain a local IDE. The Cloud9 code editor and integrated debugger include helpful, time-saving features such as code hinting, code completion, and step-through debugging. The Cloud9 terminal provides a browser-based shell experience enabling you to install additional software, do a git push, or enter commands. CODE TOGETHER IN REAL TIME AWS Cloud9 makes collaborating on code easy. You can share your development environment with your team in just a few clicks and pair program together. While collaborating, your team members can see each other type in real time, and instantly chat with one another from within the IDE. BUILD SERVERLESS APPLICATIONS WITH EASE AWS Cloud9 makes it easy to write, run, and debug serverless applications. It preconfigures the development environment with all the SDKs, libraries, and plug-ins needed for serverless development. Cloud9 also provides an environment for locally testing and debugging AWS Lambda functions. This allows you to iterate on your code directly, saving you time and improving the quality of your code. DIRECT TERMINAL ACCESS TO AWS AWS Cloud9 comes with a terminal that includes sudo privileges to the managed Amazon EC2 instance that is hosting your development environment and a preauthenticated AWS Command Line Interface. This makes it easy for you to quickly run commands and directly access AWS services. START NEW PROJECTS QUICKLY AWS Cloud9 makes it easy for you to start new projects. Cloud9’s development environment comes prepackaged with tooling for over 40 programming languages, including Node.js, JavaScript, Python, PHP, Ruby, Go, and C++. This enables you to start writing code for popular application stacks within minutes by eliminating the need to install or configure files, SDKs, and plug-ins for your development machine. Because Cloud9 is cloud-based, you can easily maintain multiple development environments to isolate your project’s resources. "
+},
+{
+	"uri": "/3-basicfunctions/3.1-usecommandline/",
+	"title": "Using command line",
+	"tags": [],
+	"description": "",
+	"content": "Using command line In this step we will use Terminal and use some basic Linux\u0026rsquo;s command on Cloud9 instance\n In IDE of Cloud9, click symbol + -Click New terminal or use can use terminal at bottom screen  In Terminal, leave this command  pwd  And the result of path /home/ec2-user/environment/.   Leave this command to list all file of folder  ls   and we have many command to find out in Cloud 9  "
+},
+{
+	"uri": "/2-createcloud9instance/",
+	"title": "Create cloud9 instance",
+	"tags": [],
+	"description": "",
+	"content": "Create 1 Cloud9 instance In this step we will create new cloud9 instance 1.Login AWS Management Console.  Click search box and fill \u0026ldquo;Cloud9\u0026rdquo;   Click Cloud9 to go management page Cloud9   At \u0026ldquo;Cloud9\u0026rdquo; screen   Click *Create Environment    At step 1 \u0026ldquo;Name environment\u0026rdquo;   set name for you instance VD: firstcloud9 Click Next Step    At step 2 \u0026ldquo;Configure settings.\u0026rdquo;   Environment type : Choose Create a new EC2 instance for environment (direct access). Instance type : Choose t2.micro. Platform : Choose Amazon Linux2. -Cost-saving setting : chọn After 30 minutes. Allow auto stop after 30m    At Review page. -Check configuration -Move to end of page,  It\u0026rsquo;s take some minutes to create  You create a instance successfully    Click Next step.  "
+},
+{
+	"uri": "/3-basicfunctions/3.2-workingwithfiletext/",
+	"title": "Working file text",
+	"tags": [],
+	"description": "",
+	"content": "Working file text In this step we will work with file text on Cloud9 instance.\n At tab bar, click right mouse to file README and click Open  You can see file README is opened   Leave any text to this file Ex: It\u0026rsquo;s easy to edit text in Cloud9   After finish use Ctrl+V or click File-Save as  Creating new file is easy , just click File\u0026gt;New From Template \u0026gt; and choose the file type   "
+},
+{
+	"uri": "/3-basicfunctions/3.3-backtodasboard/",
+	"title": "Back to dashboard",
+	"tags": [],
+	"description": "",
+	"content": "Back to dashboard After we create Cloud9, we will move to Cloud9 management screen, if you want to back bashboard, you will follow this\n At Cloud9 IDE. - Click Cloud 9 symbol - Click Go To Your Dashboad.  Besides, you can use another way to back dashboard   Click user symbol Click Go to dashboard   New tab will be opened and we will be Cloud 9 management screen and you can use others servide. In the next step we will use CLI  "
+},
+{
+	"uri": "/3-basicfunctions/",
+	"title": "Basing function",
+	"tags": [],
+	"description": "",
+	"content": "Using basing function of Cloud () In this step, we will use some cloud9\u0026rsquo;s functions\nContent  Using command line  Woking with file text  Back to dashboard   "
+},
+{
+	"uri": "/4-usingawscli/",
+	"title": "Using AWS CLI",
+	"tags": [],
+	"description": "",
+	"content": "Using AWS CLI AWS CLI is a tool help manage AWS services. You can manage many services by command line and easy to automatic the AWS services by file script And CLI was seted up on Cloud 9\n Run CLI to check instances which are runing  aws ec2 describe-instances So you finished basic Cloud 9 lab, remember Clear environment\n"
+},
+{
+	"uri": "/5-clearenvironment/",
+	"title": "Clear environment",
+	"tags": [],
+	"description": "",
+	"content": "Clear environment Now we will clear environment follow steps\n In Cloud 9 management page   Click to choose the instance you created click Delete    In popup confirm - Fill Delete   Click Delete  So you delete your instance successfully  "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
